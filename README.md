@@ -9,7 +9,6 @@ Restructured version of the Control-System repository
   - Math Calculations
   - Calculate And Set Motor Power
   - Plot Data
-- End Loop:
 - Close Motors And Sensors
 
 
