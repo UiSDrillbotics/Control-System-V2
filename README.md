@@ -1,9 +1,12 @@
 # Control-System-V2
 Restructured version of the Control-System repository
 
+## Starting the system
+The main function is located in the `__init__.py` file. This file initializes the system and starts the operating loop.
+
 ## System structure
 The parent function of every file is called in this order:
-- Init
+- Setup
 - Get First Measurement
 - Loop:
   - Get New Measurement
@@ -12,8 +15,8 @@ The parent function of every file is called in this order:
   - Plot Data
 - Close Motors And Sensors
 
-### Init
-Initialize system with sensors and motors. Connect to data acquisition system and prepare for start. Located in the file `init.py`.
+### Setup
+Initialize system with sensors and motors. Connect to data acquisition system and prepare for start. Located in the file `setup.py`.
 
 ### Get First Measurement
 Take first measurement from every sensor. Check every sensor value before starting the system. Located in the file `first_measurement.py`.
