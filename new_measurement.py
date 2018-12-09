@@ -1,9 +1,8 @@
 ###############################################################
 #
-#   Initialize system with sensors and motors
+#   Take new measurement from every sensor
 #
 ###############################################################
 
 
-# Connect to data acquisition system and prepare for start
-
+# Checking values for all sensors. Called from inside a loop

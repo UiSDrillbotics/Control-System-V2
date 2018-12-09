@@ -1,9 +1,8 @@
 ###############################################################
 #
-#   Initialize system with sensors and motors
+#   Calculate and set motor power
 #
 ###############################################################
 
 
-# Connect to data acquisition system and prepare for start
-
+# Send new signal to engines. Any output filters should be applied here

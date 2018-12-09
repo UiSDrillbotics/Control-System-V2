@@ -1,9 +1,8 @@
 ###############################################################
 #
-#   Initialize system with sensors and motors
+#   Take first measurement from every sensor
 #
 ###############################################################
 
 
-# Connect to data acquisition system and prepare for start
-
+# Check every sensor value before starting the system

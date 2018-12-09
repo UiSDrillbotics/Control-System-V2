@@ -1,9 +1,9 @@
 ###############################################################
 #
-#   Initialize system with sensors and motors
+#   Do math calculations based on sensor data
 #
 ###############################################################
 
 
-# Connect to data acquisition system and prepare for start
+# Do calculations to turn sensor readings into usable data. E.g. weight on bit, angle
 

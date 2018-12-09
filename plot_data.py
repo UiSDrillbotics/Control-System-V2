@@ -1,9 +1,8 @@
 ###############################################################
 #
-#   Initialize system with sensors and motors
+#   Plot data to screen
 #
 ###############################################################
 
 
-# Connect to data acquisition system and prepare for start
-
+# Output raw or processed data to screen
