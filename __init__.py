@@ -11,41 +11,37 @@ from math_calculations import *
 from calculate_and_set_motor_power import *
 from plot_data import *
 from close_motors_and_sensors import *
-from time import time, sleep
+from time import perf_counter
 
 
 # Initializes and starts the operations loop
-aborted = False
-frequency = 1000
-plot_frequency = 1
-plot_interval = int(frequency / plot_frequency)
- 
+running = True
 
-period = 1/frequency
-
-loop_count = 0
+FREQUENCY = 100
+PLOT_FREQUENCY = 1
+PLOT_PERIOD = 1/PLOT_FREQUENCY
+PERIOD = 1/FREQUENCY
 
 setup()
 first_measurement()
 
-# Keep track of the 
-starttime = time()
-while not aborted:
-    cur_time = time()
-    print(cur_time)
-    loop_count += 1
+t = perf_counter()
+while running:
+    print(perf_counter())
+    t += PERIOD
+    
+    # Execute operations
     new_measurement()
     math_calculations()
     calculate_and_set_motor_power()
-    if loop_count % plot_interval == 0:
-        plot_data()
-    # print(time() - cur_time)
+    plot_data()
+
     # Hold the loop until new meassurement
-    # A while loop occupying the processor is much more accurate than sleep
-    while time() - starttime - loop_count * period < period:
+    # This approach is more accurate than a sleep()
+    while t - perf_counter() > 0:
         pass
 
-
+# System is no longer running
 close_motors_and_sensors()
 
 
