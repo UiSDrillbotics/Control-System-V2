@@ -15,13 +15,6 @@ from time import perf_counter
 
 
 # Initializes and starts the operations loop
-running = True
-
-FREQUENCY = 100
-PLOT_FREQUENCY = 1
-PLOT_PERIOD = 1/PLOT_FREQUENCY
-PERIOD = 1/FREQUENCY
-
 setup()
 first_measurement()
 

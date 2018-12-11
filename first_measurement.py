@@ -8,3 +8,11 @@
 # Check every sensor value before starting the system
 def first_measurement():
     print("Taking first measurements..")
+
+
+
+
+
+    
+
+    
