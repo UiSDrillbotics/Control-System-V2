@@ -4,13 +4,13 @@
 #
 ###############################################################
 
-from setup import *
-from first_measurement import *
-from new_measurement import *
-from math_calculations import *
-from calculate_and_set_motor_power import *
-from plot_data import *
-from close_motors_and_sensors import *
+from f1_setup import *
+from f2_first_measurement import *
+from f3a_new_measurement import *
+from f3b_math_calculations import *
+from f3c_calculate_and_set_motor_power import *
+from f3d_plot_data import *
+from f4_close_motors_and_sensors import *
 from time import perf_counter
 
 
