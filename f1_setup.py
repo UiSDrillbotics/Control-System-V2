@@ -11,7 +11,7 @@ running = True
 
 
 #-------------------Set global constants-------------------
-FREQUENCY = 10
+FREQUENCY = 100
 PLOT_FREQUENCY = 1
 PLOT_PERIOD = 1/PLOT_FREQUENCY
 PERIOD = 1/FREQUENCY
