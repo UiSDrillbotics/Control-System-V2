@@ -9,6 +9,8 @@
 def first_measurement():
     print("Taking first measurements..")
 
+    # 
+
 
 
 

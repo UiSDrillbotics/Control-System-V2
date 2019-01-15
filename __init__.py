@@ -14,6 +14,7 @@ from f4_close_motors_and_sensors import *
 from time import perf_counter
 
 
+
 # Initializes and starts the operations loop
 setup()
 first_measurement()
