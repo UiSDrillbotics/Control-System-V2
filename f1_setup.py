@@ -3,7 +3,9 @@
 #   Initialize system with variables, constants, sensors and motors
 #
 ###############################################################
-from .daq import Downhole
+from daq.downhole import Downhole
+from daq.input import DAQInput
+from daq.output import DAQOutput
 
 
 #-------------------Set global variables-------------------
@@ -11,7 +13,9 @@ running = True
 
 
 #-------------------Global objects-------------------
-
+downhole = Downhole()
+input = DAQInput()
+output = DAQOutput()
 
 
 #-------------------Set global constants-------------------
@@ -29,7 +33,14 @@ PERIOD = 1/FREQUENCY
 
 def setup():
     print("Initializing the control system..")
-    # dh = Downhole()
+    # Initialize the DAQ systems
+    
+    # downhole.new_measurement()
+
+    
+
+
+
     
 
     

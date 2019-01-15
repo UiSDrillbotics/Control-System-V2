@@ -1,6 +1,7 @@
 class Rotation:
 
     def __init__(self):
+        self.calibrated = False
         self.rpm = 0
 
     @property

@@ -6,7 +6,10 @@ class Downhole:
         print("Downhole initialized")
 
     def new_measurement(self):
+        # Get values from sensor and store in the object itself
+
         # Dummy values
+        
         pass
         
 
