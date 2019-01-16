@@ -1,15 +1,21 @@
 class Downhole:
+
     def __init__(self):
-        self.Accelerometer = Accelerometer
-        self.Magnetometer = Magnetometer
-        self.Gyroscope = Gyroscope
+        self.accelerometer = Accelerometer()
+        self.magnetometer = Magnetometer()
+        self.gyroscope = Gyroscope()
         print("Downhole initialized")
 
     def new_measurement(self):
-        # Get values from sensor and store in the object itself
+        # Get raw sensor data and store in the object itself
+
+
 
         # Dummy values
         
+        pass
+
+    def math_calculations(self):
         pass
         
 

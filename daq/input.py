@@ -4,7 +4,11 @@ class DAQInput:
         pass
 
     def new_measurement(self):
+        # Get raw sensor data and store it in the object itself
+
+
         pass
+
 
 
 

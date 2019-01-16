@@ -4,6 +4,11 @@ class Hoisting:
         self.calibrated = False
         self.wob = 0
         self.brake = Brake()
+        self.actuator = Actuator()
+        self.stepper1 = Stepper()
+        self.stepper2 = Stepper()
+        self.stepper3 = Stepper()
+        self.load_cell = LoadCell()
         
     
     def calibrate(self):
@@ -16,8 +21,6 @@ class Hoisting:
     def move(self):
         pass
 
-    def stop(self):
-        pass
 
     @property
     def wob(self):
@@ -41,6 +44,8 @@ class Stepper(Hoisting):
 
     def __init__(self):
         self.counter = 0
+
+    
 
 
 class Brake(Hoisting):
