@@ -2,8 +2,8 @@ class Rotation:
 
     def __init__(self):
         self.calibrated = False
-        self.rpm = 0
-        self.torque = 0
+        self._rpm = 0
+        self._torque = 0
 
 
     @property

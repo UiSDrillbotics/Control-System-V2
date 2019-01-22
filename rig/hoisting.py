@@ -2,7 +2,7 @@ class Hoisting:
 
     def __init__(self):
         self.calibrated = False
-        self.wob = 0
+        self._wob = 0
         self.brake = Brake()
         self.actuator = Actuator()
         self.stepper1 = Stepper()

@@ -4,7 +4,7 @@
 #
 ###############################################################
 
-from f1_setup import * 
+from f1_setup import downhole, input
 
 # Check every sensor value before starting the system
 def first_measurement():

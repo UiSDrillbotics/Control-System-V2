@@ -27,7 +27,7 @@ rotation = Rotation()
 
 
 #-------------------Set global constants-------------------
-FREQUENCY = 100
+FREQUENCY = 5
 PLOT_FREQUENCY = 1
 PLOT_PERIOD = 1/PLOT_FREQUENCY
 PERIOD = 1/FREQUENCY
@@ -41,9 +41,7 @@ PERIOD = 1/FREQUENCY
 
 def setup():
     print("Initializing the control system..")
-    # Initialize the DAQ systems
-    
-    # downhole.new_measurement()
+    # Start 
 
 
 

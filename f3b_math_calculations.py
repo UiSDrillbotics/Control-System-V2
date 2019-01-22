@@ -3,7 +3,7 @@
 #   Do math calculations based on sensor data
 #
 ###############################################################
-from f1_setup import *
+from f1_setup import downhole
 
 
 # Do calculations to turn sensor readings into usable data. E.g. weight on bit, angle
